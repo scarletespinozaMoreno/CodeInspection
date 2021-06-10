@@ -1,9 +1,21 @@
 package labcodeinspection;
-
 import java.util.Scanner;
-@SuppressWarnings("PMD.UseUtilityClass")
 public class EmailApp {
-
+	
+	/**
+	* 
+	*Cosntructor privado
+	* @author
+	*/
+	 private EmailApp() {
+	        throw new UnsupportedOperationException();
+	    }
+	 
+	 /**
+	 * clase de email
+     * @param args
+	 */
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -23,6 +35,5 @@ public class EmailApp {
 		email.generateEmail();
 		email.showInfo();
 	}
-	
 	
 }
