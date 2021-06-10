@@ -23,4 +23,6 @@ public class EmailApp {
 		email.generateEmail();
 		email.showInfo();
 	}
+	
+	
 }
