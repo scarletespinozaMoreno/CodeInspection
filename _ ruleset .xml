@@ -16,5 +16,20 @@
 	<rule ref="category/java/design.xml/UseUtilityClass">
 		<priority>1</priority>
 	</rule>
-
+	<rule ref="category/jsp/codestyle.xml/DuplicateJspImports" />
+	<rule ref="category/java/errorprone.xml/BeanMembersShouldSerialize">
+	<priority>2</priority>
+	</rule>
+	<rule ref="category/java/errorprone.xml/UseLocaleWithCaseConversions" />
+	<rule ref="category/java/documentation.xml/CommentRequired">
+	<properties>
+	<property name="classCommentRequirement" value="Ignored" />
+	<property name="fieldCommentRequirement" value="Ignored" />
+	<property name="headerCommentRequirement" value="Ignored" />
+	</properties>
+	</rule>
+	
 </ruleset>
+
+
+
